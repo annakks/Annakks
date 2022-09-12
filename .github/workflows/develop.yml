@@ -21,9 +21,6 @@ jobs:
 
       - name: Instalação das depenencias
         run: npm install
-
-      - name: Testes de código
-        run: npm run test
       
   CD:
     needs: [CI]
