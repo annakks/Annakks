@@ -20,10 +20,9 @@ const Header = () => {
                 <div className="navlink">
                     <ul className= {Mobile ? "nav-links-mobile" : "link f_flex uppercase" } onClick={() => setMobile(false)}>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#portifolio">Portfólio</a></li>
-                        <li><a href="#softskill">SoftSkills</a></li>
-                        <li><a href="#hardskill">HardSkills</a></li>
+                        <li><a href="#g">Graduação</a></li>
+                        <li><a href="#hardsoft">Hard/Soft</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                     <button className='toggle' onClick={() => setMobile(!Mobile)}>

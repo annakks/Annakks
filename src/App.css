@@ -101,8 +101,8 @@ button {
 
 .heading h4 {
   color: #718af8;
-  letter-spacing: 2px;
-  font-weight: 400;
+  letter-spacing: 3px;
+  font-weight: 600;
 }
 
 .heading h1 {
@@ -126,7 +126,7 @@ p {
 
 .text-center {
   text-align: center;
-}
+} ---*/
 
 .primary_color {
   color: #718af8;
