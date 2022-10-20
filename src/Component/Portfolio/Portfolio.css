@@ -68,9 +68,6 @@
     color: black;
 }
 
-
-
-/*------------popup--------*/
 body.active-modal {
     overflow-y: hidden;
 }

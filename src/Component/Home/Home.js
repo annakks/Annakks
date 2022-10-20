@@ -28,7 +28,6 @@ const Home = () => {
                         </span>
                     </h2>
                     <p>Tenho 9 anos de Carreira Pública, Graduação e pós-Graduação em Administração e Tecnologo na área de Tecnologia da Informação-TI.</p>
-                    <p>Graduação em Desenvolvimento de Software Multiplataforma pela FATEC de São Jose dos Campos, considerada uma das faculdades mais conceituadas na área de tecnologia.</p>
                     <div className="home_btn d_flex">
                         <div className="col_1">
                             <h4> Contate me </h4>

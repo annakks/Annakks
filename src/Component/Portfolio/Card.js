@@ -33,8 +33,7 @@ const Card = (props) => {
           <div className="modal-text right">
             <span>Detalhes</span>
             <h1>{props.title}</h1>
-            <p>Destaque Destaque Destaque Destaque Destaque Destaque Destaque Destaque Destaque </p>
-            <p>Destaque Destaque Destaque Destaque Destaque Destaque Destaque Destaque Destaque </p>
+            <p>{props.text}</p>
             <div className="button f_flex mtop">
               <button className="btn_shadow">
                 Repositório do Projeto <i className="fas fa-chevron-right"></i>
