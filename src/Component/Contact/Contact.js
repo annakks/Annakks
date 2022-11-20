@@ -50,19 +50,26 @@ const Contact = () => {
                                 <p>E-mail: annakks@gmail.com</p>
                                 <span class=""></span>
                                 <div class="button f_flex">
-                                    <button className="btn_shadow">
-                                        <i className="fab fa-facebook-f"></i>
-                                    </button>
-                                    <button className="btn_shadow">
-                                        <i className="fab fa-instagram"></i>
-                                    </button>
-                                    <button className="btn_shadow">
-                                        <i className="fab fa-twitter"></i>
-                                    </button>
-                                    <button className="btn_shadow">
-                                        <i className="fab fa-linkedin"></i>
-                                    </button>
-                                    
+                                    <a href="https://www.facebook.com/anacarolina.santos.984349/" target="_blank" rel='noreferrer'>
+                                        <button className="btn_shadow">
+                                            <i className="fab fa-facebook-f"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://www.instagram.com/annakks/" target="_blank" rel='noreferrer'>
+                                        <button className="btn_shadow">
+                                            <i className="fab fa-instagram"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://twitter.com/annakks" target="_blank" rel='noreferrer'>
+                                        <button className="btn_shadow">
+                                            <i className="fab fa-twitter"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/annakks/" target="_blank" rel='noreferrer'>
+                                        <button className="btn_shadow">
+                                            <i className="fab fa-linkedin"></i>
+                                        </button>
+                                    </a>   
                                 </div>
                             </div>
                         </div>
