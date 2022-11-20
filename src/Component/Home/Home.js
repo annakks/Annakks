@@ -32,32 +32,46 @@ const Home = () => {
                         <div className="col_1">
                             <h4> Contate me </h4>
                             <div className="button">
-                                <button className="btn_shadow">
-                                    <i className='fab fa-linkedin-in'></i>
-                                </button>
-                                <button className="btn_shadow">
-                                    <i className='fab fa-github'></i>
-                                </button>
+                                <a  href="https://www.linkedin.com/in/annakks/" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i className='fab fa-linkedin-in'></i>
+                                    </button>
+                                </a>
+                                <a href="https://github.com/annakks" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i className='fab fa-github'></i>
+                                    </button>
+                                </a> 
                             </div>
                         </div>
                         <div className="col_1">
                             <h4> Conhecimento em: </h4>
                             <div className="button">
-                                <button className="btn_shadow">
-                                    <i class='fab fa-node-js fa-lg'></i><br/>
-                                </button>
-                                <button className="btn_shadow">
-                                    <i class='fab fa-react fa-lg'></i><br/>
-                                </button>
-                                <button className="btn_shadow">
-                                    <i class='fas fa-leaf fa-lg'></i><br/>
-                                </button>
-                                <button className="btn_shadow">
-                                    <i class='fab fa-python fa-lg'></i><br/>
-                                </button>
-                                <button className="btn_shadow">
-                                    <i class='fab fa-git-alt fa-lg'></i><br/>
-                                </button>
+                                <a href="https://nodejs.org/en/about/" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i class='fab fa-node-js fa-lg'></i><br/>
+                                    </button>
+                                </a>
+                                <a href="https://pt-br.reactjs.org/" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i class='fab fa-react fa-lg'></i><br/>
+                                    </button>
+                                </a>
+                                <a href="https://spring.io/projects/spring-boot" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i class='fas fa-leaf fa-lg'></i><br/>
+                                    </button>
+                                </a>
+                                <a href="https://www.python.org/about/" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i class='fab fa-python fa-lg'></i><br/>
+                                    </button>
+                                </a>
+                                <a href="https://git-scm.com/about" target="_blank" rel='noreferrer'>
+                                    <button className="btn_shadow">
+                                        <i class='fab fa-git-alt fa-lg'></i><br/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

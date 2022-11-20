@@ -78,8 +78,7 @@
 
 @media (max-width: 768px) {
 
-    .home .right,
-    .home .left {
+    .home .right, .home .left {
         width: 100%;
         margin-left: 20px;
     }
@@ -90,7 +89,6 @@
     }
 
     .home .right_img {
-        width: 100%;
-        height: 54vh;
+        display: none;
     }
 }

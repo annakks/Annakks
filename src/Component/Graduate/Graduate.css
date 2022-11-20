@@ -18,6 +18,7 @@
 }
 
 .Resume .rate .btn_shadow {
+    color: #ff014f;
     padding: 15px 30px;
     font-weight: bold;
     transition: 0.5s;
@@ -38,6 +39,7 @@
 }
 
 .Resume .box:hover .btn_shadow {
+    background: #ff3a75;
     box-shadow: none;
     color: white;
 }
@@ -59,7 +61,7 @@
     position: absolute;
     top: 16%;
     left: 0;
-    height: 118vh;
+    height: 100vh;
     width: 5px;
     background: #d9dee2;
     z-index: -2;

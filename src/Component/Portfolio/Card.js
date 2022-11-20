@@ -17,7 +17,7 @@ const Card = (props) => {
       </div>
       <div className="title">
         <h2 onClick={toggleModal}>{props.title}</h2>
-        <a href="#" className="arrow" onClick={toggleModal}>
+        <a href=" " className="arrow" onClick={toggleModal}>
           <i className="fas fa-arrow-right"></i>
         </a>
       </div>
@@ -26,18 +26,15 @@ const Card = (props) => {
     {modal &&(
       <div className="modal">
         <div onClick={toggleModal} className="overlay"></div>
-        <div className="modal-content d_flex">
-          <div className="modal-img left">
-            <img src={props.image} alt="" />
-          </div>
+        <div className='modal-content d_flex'>
+            <div className='modal-img left'>
+              <img src={props.image} alt='' />
+            </div>
           <div className="modal-text right">
             <span>Detalhes</span>
             <h1>{props.title}</h1>
             <p>{props.text}</p>
             <div className="button f_flex mtop">
-              <button className="btn_shadow">
-                Repositório do Projeto <i className="fas fa-chevron-right"></i>
-              </button>
             </div>
             <button className="close-modal btn_shadow" onClick={toggleModal}>
               <i className="fas fa-times"></i>

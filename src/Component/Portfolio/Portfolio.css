@@ -100,14 +100,14 @@ body.active-modal {
 
 .modal-content {
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 12%;
+    left: 8%;
     line-height: 1.4;
     background: #f0f3f5;
     padding: 14px 28px;
     border-radius: 3px;
     max-width: 85%;
-    min-width: 70%;
+    min-width: 60%;
     z-index: 9999;
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     padding: 50px;
@@ -154,11 +154,9 @@ body.active-modal {
     margin: 0;
 }
 
-/*------------popup--------*/
 @media (max-width: 768px) {
 
-    .modal,
-    .overlay {
+    .modal, .overlay {
         overflow: scroll;
     }
 
@@ -170,8 +168,8 @@ body.active-modal {
         flex-direction: column;
     }
 
-    .modal .right,
-    .modal .left {
+    .modal .right, .modal .left {
         padding: 0;
     }
+
 }
