@@ -48,8 +48,8 @@ const Contact = () => {
                                 <br/>
                                 <p>Telefone: +55 12 9 9638-8022 (WhatsApp)</p>
                                 <p>E-mail: annakks@gmail.com</p>
-                                <span class=""></span>
-                                <div class="button f_flex">
+                                <span className=""></span>
+                                <div className="button f_flex">
                                     <a href="https://www.facebook.com/anacarolina.santos.984349/" target="_blank" rel='noreferrer'>
                                         <button className="btn_shadow">
                                             <i className="fab fa-facebook-f"></i>
