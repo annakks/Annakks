@@ -59,7 +59,7 @@ const Home = () => {
                                 </a>
                                 <a href="https://spring.io/projects/spring-boot" target="_blank" rel='noreferrer'>
                                     <button className="btn_shadow">
-                                        <i classNames='fas fa-leaf fa-lg'></i><br/>
+                                        <i className='fas fa-leaf fa-lg'></i><br/>
                                     </button>
                                 </a>
                                 <a href="https://www.python.org/about/" target="_blank" rel='noreferrer'>
