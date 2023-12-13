@@ -28,7 +28,7 @@ const Card = (props) => {
         <div onClick={toggleModal} className="overlay"></div>
         <div className='modal-content d_flex'>
             <div className='modal-img left'>
-              <img src="./image/Sirius.png" alt=''  style={{width: '100%', height: '100%'}}/>
+              <img src={props.image} alt=''  style={{width: '100%', height: '100%'}}/>
             </div>
           <div className="modal-text right">
             <span>Detalhes</span>
