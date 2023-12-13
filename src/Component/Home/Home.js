@@ -27,7 +27,7 @@ const Home = () => {
                             />
                         </span>
                     </h2>
-                    <p>Tenho 9 anos de Carreira Pública, Graduação e pós-Graduação em Administração e Tecnologo na área de Tecnologia da Informação-TI.</p>
+                    <p>Tenho 10 anos de Carreira Pública, Graduação e pós-Graduação em Administração e Tecnologo na área de Tecnologia da Informação-TI.</p>
                     <div className="home_btn d_flex">
                         <div className="col_1">
                             <h4> Contate me </h4>

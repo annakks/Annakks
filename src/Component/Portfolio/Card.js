@@ -28,12 +28,13 @@ const Card = (props) => {
         <div onClick={toggleModal} className="overlay"></div>
         <div className='modal-content d_flex'>
             <div className='modal-img left'>
-              <img src={props.image} alt='' />
+              <img src="./image/Sirius.png" alt=''  style={{width: '100%', height: '100%'}}/>
             </div>
           <div className="modal-text right">
             <span>Detalhes</span>
             <h1>{props.title}</h1>
             <p>{props.text}</p>
+            <p>{props.url}</p>
             <div className="button f_flex mtop">
             </div>
             <button className="close-modal btn_shadow" onClick={toggleModal}>

@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer>
         <div className="container text-center top">
-            <p>@2022</p>
+            <p>2023</p>
         </div>
       </footer>
     </>
