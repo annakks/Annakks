@@ -10,7 +10,7 @@ const Card = (props) => {
     <>
     <div className="box btn_shadow">
       <div className="img">
-        <img src={props.image} alt="" onClick={toggleModal}/>
+        <img alt="" onClick={toggleModal}/>
       </div>
       <div className="category d_flex">
         <span>{props.category}</span>
@@ -34,7 +34,7 @@ const Card = (props) => {
             <span>Detalhes</span>
             <h1>{props.title}</h1>
             <p>{props.text}</p>
-            <p>Link do Repositório:</p>
+            <p>Link do Repositório: </p>
             <p><a href={props.url} target="_blank" rel="noopener noreferrer">{props.url}</a></p>
             <div className="button f_flex mtop">
             </div>
