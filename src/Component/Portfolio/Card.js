@@ -34,7 +34,8 @@ const Card = (props) => {
             <span>Detalhes</span>
             <h1>{props.title}</h1>
             <p>{props.text}</p>
-            <p>{props.url}</p>
+            <p>Link do Repositório:</p>
+            <p><a href={props.url} target="_blank" rel="noopener noreferrer">{props.url}</a></p>
             <div className="button f_flex mtop">
             </div>
             <button className="close-modal btn_shadow" onClick={toggleModal}>
